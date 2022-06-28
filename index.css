@@ -1,0 +1,111 @@
+header {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+ul {
+    display: flex;
+    color: grey;
+    text-decoration: underline;
+    list-style-type: none;
+    margin: 0 10px 0 0;
+}
+ul li {
+    padding: 0 10px;
+}
+.logo {
+    height: 50px;
+    margin: 0 0 0 10px;
+}
+main{
+    display:flex;
+    background-color: black;
+    width: 100%
+    position: relative;
+    top: 69px;
+    flex-wrap: wrap;
+}
+#div1 {
+    background-image: url(img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: center;
+}
+#div2 {
+    background-color: black;
+    width: 1000px;
+    margin: 0 50px;
+}
+#div3 {
+    background-image: url(img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#article1 {
+    display: flex;
+    background-color: black;
+    width: 1200px;
+    color: grey;
+    align-items: center;
+    flex-direction: column;
+}
+#article2 {
+    display: flex;
+    background-color: black;
+    color: grey;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 20px 0 0;
+}
+#article3 {
+    display: flex;
+    background-color: black;
+    color: grey;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 20px 0 20px;
+}
+#article4 {
+    display: flex;
+    background-color: black;
+    color: grey;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 0 0 20px;
+}
+#img1 {
+    height: 200px;
+    width: 300px;
+}
+#img2 {
+    height: 200px;
+    width: 300px;
+}
+#img3 {
+    height: 200px;
+    width: 300px;
+}
+#img4 {
+    height: 200px;
+    width: 300px;
+}
+#img5 {
+    height: 200px;
+    width: 300px;
+}
